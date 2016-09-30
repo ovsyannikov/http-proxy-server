@@ -1,20 +1,12 @@
-var express = require('express');
-var app = express();
-
-app.set('port', (process.env.PORT || 5000));
-
-app.use(express.static(__dirname + '/public'));
-
-// views is directory for all template files
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+var express = require('express')
+    , app = express();
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+    response.end('<!DOCTYPE html><html><head><meta charset="utf-8" /><title>TEST</title></head><body>ПРИВЕТ</body></html>');
 });
 
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+app.listen(5000, function () {
+    console.log('Node app is running on port 5000');
 });
 
 
