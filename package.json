@@ -3,7 +3,7 @@
     , "version": "1.0.0"
     , "description": "HTTP Proxy Server"
     , "engines": {
-        , "node": "5.9.1"
+          "node": "5.9.1"
       }
     , "main": "index.js"
     , "scripts": {
