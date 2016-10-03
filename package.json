@@ -3,14 +3,14 @@
     , "version": "1.0.0"
     , "description": "HTTP Proxy Server"
     , "engines": {
-          "node": "5.9.1"
+          "node": "6.7.0"
       }
     , "main": "index.js"
     , "scripts": {
           "start": "node index.js"
       }
     , "dependencies": {
-          "express": "4.13.3"
+          "express": "4.14.0"
       }
     , "repository": {
           "type": "git"
